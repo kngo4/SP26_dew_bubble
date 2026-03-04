@@ -70,8 +70,6 @@ def get_antoine_coefficient(Name, Temperature):
             and Temperature <= interval[1]):
             index = i
             break
-        else:
-            index = None
 
     if index == None:
         print('Sorry, the data for the given temperature {0}K does '
