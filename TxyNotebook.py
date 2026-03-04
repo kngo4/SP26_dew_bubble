@@ -101,7 +101,7 @@ def _(fsolve, get_antoine_coefficient, np, plt, raoult_law_kvalue):
     plt.plot(x_prop, T_soln, label='X_prop')
     plt.xlabel('$x_{prop}$, $y_{prop}$')
     plt.ylabel('Temperature (K)')
-    plt.title('T-x-y of propane and toluene')
+    plt.title(f'T-x-y of propane and toluene, P = {P} bar')
     plt.legend(loc='upper right')
     return
 
